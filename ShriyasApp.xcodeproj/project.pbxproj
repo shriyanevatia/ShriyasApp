@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2D82C351B3860410010EFE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D82C341B3860410010EFE6 /* AppDelegate.swift */; };
+		B2D82C371B3860410010EFE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D82C361B3860410010EFE6 /* ViewController.swift */; };
+		B2D82C3A1B3860410010EFE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D82C381B3860410010EFE6 /* Main.storyboard */; };
+		B2D82C3C1B3860410010EFE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2D82C3B1B3860410010EFE6 /* Images.xcassets */; };
+		B2D82C3F1B3860410010EFE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2D82C3D1B3860410010EFE6 /* LaunchScreen.xib */; };
+		B2D82C4B1B3860410010EFE6 /* ShriyasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D82C4A1B3860410010EFE6 /* ShriyasAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2D82C451B3860410010EFE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2D82C271B3860410010EFE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2D82C2E1B3860410010EFE6;
+			remoteInfo = ShriyasApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2D82C2F1B3860410010EFE6 /* ShriyasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShriyasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D82C331B3860410010EFE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D82C341B3860410010EFE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2D82C361B3860410010EFE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2D82C391B3860410010EFE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2D82C3B1B3860410010EFE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2D82C3E1B3860410010EFE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B2D82C441B3860410010EFE6 /* ShriyasAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShriyasAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D82C491B3860410010EFE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D82C4A1B3860410010EFE6 /* ShriyasAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShriyasAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2D82C2C1B3860410010EFE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D82C411B3860410010EFE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2D82C261B3860410010EFE6 = {
+			isa = PBXGroup;
+			children = (
+				B2D82C311B3860410010EFE6 /* ShriyasApp */,
+				B2D82C471B3860410010EFE6 /* ShriyasAppTests */,
+				B2D82C301B3860410010EFE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2D82C301B3860410010EFE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2D82C2F1B3860410010EFE6 /* ShriyasApp.app */,
+				B2D82C441B3860410010EFE6 /* ShriyasAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2D82C311B3860410010EFE6 /* ShriyasApp */ = {
+			isa = PBXGroup;
+			children = (
+				B2D82C341B3860410010EFE6 /* AppDelegate.swift */,
+				B2D82C361B3860410010EFE6 /* ViewController.swift */,
+				B2D82C381B3860410010EFE6 /* Main.storyboard */,
+				B2D82C3B1B3860410010EFE6 /* Images.xcassets */,
+				B2D82C3D1B3860410010EFE6 /* LaunchScreen.xib */,
+				B2D82C321B3860410010EFE6 /* Supporting Files */,
+			);
+			path = ShriyasApp;
+			sourceTree = "<group>";
+		};
+		B2D82C321B3860410010EFE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2D82C331B3860410010EFE6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2D82C471B3860410010EFE6 /* ShriyasAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2D82C4A1B3860410010EFE6 /* ShriyasAppTests.swift */,
+				B2D82C481B3860410010EFE6 /* Supporting Files */,
+			);
+			path = ShriyasAppTests;
+			sourceTree = "<group>";
+		};
+		B2D82C481B3860410010EFE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2D82C491B3860410010EFE6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2D82C2E1B3860410010EFE6 /* ShriyasApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D82C4E1B3860410010EFE6 /* Build configuration list for PBXNativeTarget "ShriyasApp" */;
+			buildPhases = (
+				B2D82C2B1B3860410010EFE6 /* Sources */,
+				B2D82C2C1B3860410010EFE6 /* Frameworks */,
+				B2D82C2D1B3860410010EFE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShriyasApp;
+			productName = ShriyasApp;
+			productReference = B2D82C2F1B3860410010EFE6 /* ShriyasApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2D82C431B3860410010EFE6 /* ShriyasAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D82C511B3860410010EFE6 /* Build configuration list for PBXNativeTarget "ShriyasAppTests" */;
+			buildPhases = (
+				B2D82C401B3860410010EFE6 /* Sources */,
+				B2D82C411B3860410010EFE6 /* Frameworks */,
+				B2D82C421B3860410010EFE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2D82C461B3860410010EFE6 /* PBXTargetDependency */,
+			);
+			name = ShriyasAppTests;
+			productName = ShriyasAppTests;
+			productReference = B2D82C441B3860410010EFE6 /* ShriyasAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2D82C271B3860410010EFE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = MakeSchool;
+				TargetAttributes = {
+					B2D82C2E1B3860410010EFE6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B2D82C431B3860410010EFE6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B2D82C2E1B3860410010EFE6;
+					};
+				};
+			};
+			buildConfigurationList = B2D82C2A1B3860410010EFE6 /* Build configuration list for PBXProject "ShriyasApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2D82C261B3860410010EFE6;
+			productRefGroup = B2D82C301B3860410010EFE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2D82C2E1B3860410010EFE6 /* ShriyasApp */,
+				B2D82C431B3860410010EFE6 /* ShriyasAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2D82C2D1B3860410010EFE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D82C3A1B3860410010EFE6 /* Main.storyboard in Resources */,
+				B2D82C3F1B3860410010EFE6 /* LaunchScreen.xib in Resources */,
+				B2D82C3C1B3860410010EFE6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D82C421B3860410010EFE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2D82C2B1B3860410010EFE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D82C371B3860410010EFE6 /* ViewController.swift in Sources */,
+				B2D82C351B3860410010EFE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D82C401B3860410010EFE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D82C4B1B3860410010EFE6 /* ShriyasAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2D82C461B3860410010EFE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2D82C2E1B3860410010EFE6 /* ShriyasApp */;
+			targetProxy = B2D82C451B3860410010EFE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2D82C381B3860410010EFE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2D82C391B3860410010EFE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2D82C3D1B3860410010EFE6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2D82C3E1B3860410010EFE6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2D82C4C1B3860410010EFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2D82C4D1B3860410010EFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2D82C4F1B3860410010EFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShriyasApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2D82C501B3860410010EFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShriyasApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2D82C521B3860410010EFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShriyasAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShriyasApp.app/ShriyasApp";
+			};
+			name = Debug;
+		};
+		B2D82C531B3860410010EFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShriyasAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShriyasApp.app/ShriyasApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2D82C2A1B3860410010EFE6 /* Build configuration list for PBXProject "ShriyasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D82C4C1B3860410010EFE6 /* Debug */,
+				B2D82C4D1B3860410010EFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D82C4E1B3860410010EFE6 /* Build configuration list for PBXNativeTarget "ShriyasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D82C4F1B3860410010EFE6 /* Debug */,
+				B2D82C501B3860410010EFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2D82C511B3860410010EFE6 /* Build configuration list for PBXNativeTarget "ShriyasAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D82C521B3860410010EFE6 /* Debug */,
+				B2D82C531B3860410010EFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2D82C271B3860410010EFE6 /* Project object */;
+}
