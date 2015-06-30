@@ -56,6 +56,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B21452471B39AD8000A4CA5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B2D82C261B3860410010EFE6 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +84,7 @@
 		B2D82C311B3860410010EFE6 /* ShriyasApp */ = {
 			isa = PBXGroup;
 			children = (
+				B21452471B39AD8000A4CA5C /* Views */,
 				B2D82C341B3860410010EFE6 /* AppDelegate.swift */,
 				B2D82C361B3860410010EFE6 /* ViewController.swift */,
 				B2D82C381B3860410010EFE6 /* Main.storyboard */,
@@ -407,6 +415,7 @@
 				B2D82C501B3860410010EFE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2D82C511B3860410010EFE6 /* Build configuration list for PBXNativeTarget "ShriyasAppTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				B2D82C531B3860410010EFE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

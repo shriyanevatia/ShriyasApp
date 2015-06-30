@@ -21,14 +21,31 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="htT-3l-9rX"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNt-mu-8Xz">
+                                <rect key="frame" x="277" y="183" width="47.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="GpE-xs-0Db"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="3x1-fW-NXV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="15J-sj-uxD"/>
                             <constraint firstItem="3x1-fW-NXV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OXH-AQ-CLO"/>
+                            <constraint firstItem="3x1-fW-NXV" firstAttribute="top" secondItem="aNt-mu-8Xz" secondAttribute="bottom" constant="81" id="Vsh-qF-kg9"/>
+                            <constraint firstItem="aNt-mu-8Xz" firstAttribute="centerX" secondItem="3x1-fW-NXV" secondAttribute="centerX" id="cIz-g3-5bY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="aNt-mu-8Xz" id="yR2-HG-fcm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

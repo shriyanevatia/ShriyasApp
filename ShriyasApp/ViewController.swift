@@ -19,7 +19,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBOutlet var label: UILabel!
+    
+    // MARK: Buttons
+    
+    // Let's handle the button
+    @IBAction func buttonTapped(sender: AnyObject) {
+        println("Ouch")
+        label.text = "Clicked"
+    }
 
 }
 
